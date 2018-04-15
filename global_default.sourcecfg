@@ -1,0 +1,30 @@
+#Default configuration for rigol-sourcegui unless user's default configuration specifies
+#WARNING: deleting parameters may break software (modifying values does not)
+#         in case this happens save backup before modifying
+
+[main]
+
+ip = None
+
+[source1]
+
+voltage = 5
+duty = 50
+frequency = 1000
+shape = sin
+symmetry = 10
+phase = 0
+offset = 0
+
+[source2]
+
+voltage = 5
+duty = 50
+frequency = 1000
+shape = sin
+symmetry = 10
+phase = 0
+offset = 0
+
+
+
